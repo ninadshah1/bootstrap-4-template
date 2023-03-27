@@ -1,0 +1,164 @@
+{
+    "id": "bootstrap-4-template",
+    "name": "Bootstrap 4 Template",
+    "description": "A Bootstrap 4 template for your resume.",
+    "tags":["bootstrap"],
+    "image": "image.png",
+    "schema": {
+        "firstName": {
+            "type": "string",
+            "page": "index.html",
+            "default": ""
+        },
+        "lastName": {
+            "type": "string",
+            "page": "index.html",
+            "default": ""
+        },
+        "profilePicture": {
+            "type": "string",
+            "page": "index.html",
+            "default": ""
+        },
+        "address": {
+            "type": "textarea",
+            "page": "index.html",
+            "default": ""
+        },
+        "email": {
+            "type": "email",
+            "page": "index.html",
+            "default": ""
+        },
+        "aboutText": {
+            "type": "textarea",
+            "page": "index.html",
+            "default": ""
+        },
+        "intrestsText": {
+            "type": "textarea",
+            "page": "index.html",
+            "default": ""
+        },
+        "experiences": {
+            "type": "array",
+            "page": "index.html",
+            "items": {
+                "title": {
+                    "type": "string",
+                    "default": ""
+                },
+                "company": {
+                    "type": "string",
+                    "default": ""
+                },
+                "description": {
+                    "type": "textarea",
+                    "default": ""
+                },
+                "startDate": {
+                    "type": "string",
+                    "default": ""
+                },
+                "endDate": {
+                    "type": "string",
+                    "default": ""
+                }
+            }
+        },
+        "educationList": {
+            "type": "array",
+            "page": "index.html",
+            "items": {
+                "institution": {
+                    "type": "string",
+                    "default": ""
+                },
+                "program": {
+                    "type": "string",
+                    "default": ""
+                },
+                "major": {
+                    "type": "string",
+                    "default": ""
+                },
+                "startDate": {
+                    "type": "string",
+                    "default": ""
+                },
+                "endDate": {
+                    "type": "string",
+                    "default": ""
+                },
+                "gpa": {
+                    "type": "integer",
+                    "default": 0
+                }
+            }
+        },
+        "projects": {
+            "type": "array",
+            "page": "index.html",
+            "items": {
+                "name": {
+                    "type": "string",
+                    "default": ""
+                },
+                "description": {
+                    "type": "textarea",
+                    "default": ""
+                },
+                "github": {
+                    "type": "link",
+                    "default": ""
+                },
+                "demo": {
+                    "type": "link",
+                    "default": ""
+                },
+                "startDate": {
+                    "type": "string",
+                    "default": ""
+                },
+                "endDate": {
+                    "type": "string",
+                    "default": ""
+                }
+            }
+        },
+        "skillsList": {
+            "type": "array",
+            "page": "index.html",
+            "items": {
+                "skill": {
+                    "type": "string",
+                    "default": ""
+                }
+            }
+        },
+        "awardsList": {
+            "type": "array",
+            "page": "index.html",
+            "items": {
+                "award": {
+                    "type": "string",
+                    "default": ""
+                }
+            }
+        },
+        "links": {
+            "type": "array",
+            "page": "index.html",
+            "items": {
+                "name": {
+                    "type": "string",
+                    "default": ""
+                },
+                "link": {
+                    "type": "link",
+                    "default": ""
+                }
+            }
+        }
+    }
+}
